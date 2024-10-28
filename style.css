@@ -28,6 +28,12 @@ body {
     width: 12.5%;
 }
 
+.board-row > .cube > img {
+    height: 100%;
+    width: 100%;
+    cursor: pointer;
+}
+
 .board-row:nth-child(even) > .cube:nth-child(odd) {
     background-color: #8e613b;
 }
