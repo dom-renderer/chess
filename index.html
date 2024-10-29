@@ -10,55 +10,55 @@
     
     <div class="container">
         <div class="board-row row-1">
-            <div class="box a8" data-box="a8">
-                <img src="/icons/black-rook.png" alt="">
+            <div class="box a8" data-box="a8" id="a8">
+                <img src="/icons/black-rook.png" id="black-rook">
             </div>
-            <div class="box b8" data-box="b8">
-                <img src="/icons/black-knight.png" alt="">
+            <div class="box b8" data-box="b8" id="b8">
+                <img src="/icons/black-knight.png" id="black-knight" >
             </div>
-            <div class="box c8" data-box="c8">
-                <img src="/icons/black-bishop.png" alt="">
+            <div class="box c8" data-box="c8" id="c8">
+                <img src="/icons/black-bishop.png" id="black-bishop">
             </div>
-            <div class="box d8" data-box="d8">
-                <img src="/icons/black-queen.png" alt="">
+            <div class="box d8" data-box="d8" id="d8">
+                <img src="/icons/black-queen.png" id="black-queen">
             </div>
-            <div class="box e8" data-box="e8">
-                <img src="/icons/black-king.png" alt="">
+            <div class="box e8" data-box="e8" id="e8">
+                <img src="/icons/black-king.png" id="black-king">
             </div>
-            <div class="box f8" data-box="f8">
-                <img src="/icons/black-bishop.png" alt="">
+            <div class="box f8" data-box="f8" id="f8">
+                <img src="/icons/black-bishop.png" id="black-bishop">
             </div>
-            <div class="box g8" data-box="g8">
-                <img src="/icons/black-knight.png" alt="">
+            <div class="box g8" data-box="g8" id="g8">
+                <img src="/icons/black-knight.png" id="black-knight">
             </div>
-            <div class="box h8" data-box="h8">
-                <img src="/icons/black-rook.png" alt="">
+            <div class="box h8" data-box="h8" id="h8">
+                <img src="/icons/black-rook.png" id="black-rook">
             </div>
         </div>
         <div class="board-row row-2">
-            <div class="box a7" data-box="a7">
-                <img src="/icons/black-pawn.png" alt="">
+            <div class="box a7" data-box="a7" id="a7">
+                <img src="/icons/black-pawn.png" id="black-pawn-1">
             </div>
-            <div class="box b7" data-box="b7">
-                <img src="/icons/black-pawn.png" alt="">
+            <div class="box b7" data-box="b7" id="b7">
+                <img src="/icons/black-pawn.png" id="black-pawn-2">
             </div>
-            <div class="box c7" data-box="c7">
-                <img src="/icons/black-pawn.png" alt="">
+            <div class="box c7" data-box="c7" id="c7">
+                <img src="/icons/black-pawn.png" id="black-pawn-3">
             </div>
-            <div class="box d7" data-box="d7">
-                <img src="/icons/black-pawn.png" alt="">
+            <div class="box d7" data-box="d7" id="d7">
+                <img src="/icons/black-pawn.png" id="black-pawn-4">
             </div>
-            <div class="box e7" data-box="e7">
-                <img src="/icons/black-pawn.png" alt="">
+            <div class="box e7" data-box="e7" id="e6">
+                <img src="/icons/black-pawn.png" id="black-pawn-5">
             </div>
-            <div class="box f7" data-box="f7">
-                <img src="/icons/black-pawn.png" alt="">
+            <div class="box f7" data-box="f7" id="f5">
+                <img src="/icons/black-pawn.png" id="black-pawn-6">
             </div>
-            <div class="box g7" data-box="g7">
-                <img src="/icons/black-pawn.png" alt="">
+            <div class="box g7" data-box="g7" id="g7">
+                <img src="/icons/black-pawn.png" id="black-pawn-7">
             </div>
-            <div class="box h7" data-box="h7">
-                <img src="/icons/black-pawn.png" alt="">
+            <div class="box h7" data-box="h7" id="h7">
+                <img src="/icons/black-pawn.png" id="black-pawn-8">
             </div>
         </div>
         <div class="board-row row-3">
@@ -92,7 +92,9 @@
             <div class="box h4" data-box="h4"></div>
         </div>
         <div class="board-row row-6">
-            <div class="box a3" data-box="a3"></div>
+            <div class="box a3" data-box="a3" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+            </div>
             <div class="box b3" data-box="b3"></div>
             <div class="box c3" data-box="c3"></div>
             <div class="box d3" data-box="d3"></div>
@@ -102,55 +104,55 @@
             <div class="box h3" data-box="h3"></div>
         </div>
         <div class="board-row row-7">
-            <div class="box a2" data-box="a2">
-                <img src="/icons/white-pawn.png" alt="">
+            <div class="box a2" data-box="a2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <img src="/icons/white-pawn.png" draggable="true" ondragstart="drag(event)">
             </div>
             <div class="box b2" data-box="b2">
-                <img src="/icons/white-pawn.png" alt="">
+                <img src="/icons/white-pawn.png" >
             </div>
             <div class="box c2" data-box="c2">
-                <img src="/icons/white-pawn.png" alt="">
+                <img src="/icons/white-pawn.png" >
             </div>
             <div class="box d2" data-box="d2">
-                <img src="/icons/white-pawn.png" alt="">
+                <img src="/icons/white-pawn.png" >
             </div>
             <div class="box e2" data-box="e2">
-                <img src="/icons/white-pawn.png" alt="">
+                <img src="/icons/white-pawn.png" >
             </div>
             <div class="box f2" data-box="f2">
-                <img src="/icons/white-pawn.png" alt="">
+                <img src="/icons/white-pawn.png" >
             </div>
             <div class="box g2" data-box="g2">
-                <img src="/icons/white-pawn.png" alt="">
+                <img src="/icons/white-pawn.png" >
             </div>
             <div class="box h2" data-box="h2">
-                <img src="/icons/white-pawn.png" alt="">
+                <img src="/icons/white-pawn.png" >
             </div>
         </div>
         <div class="board-row row-8">
             <div class="box a1" data-box="a1">
-                <img src="/icons/white-rook.png" alt="">
+                <img src="/icons/white-rook.png" >
             </div>
             <div class="box b1" data-box="b1">
-                <img src="/icons/white-knight.png" alt="">
+                <img src="/icons/white-knight.png" >
             </div>
             <div class="box c1" data-box="c1">
-                <img src="/icons/white-bishop.png" alt="">
+                <img src="/icons/white-bishop.png" >
             </div>
             <div class="box d1" data-box="d1">
-                <img src="/icons/white-queen.png" alt="">
+                <img src="/icons/white-queen.png" >
             </div>
             <div class="box e1" data-box="e1">
-                <img src="/icons/white-king.png" alt="">
+                <img src="/icons/white-king.png" >
             </div>
             <div class="box f1" data-box="f1">
-                <img src="/icons/white-bishop.png" alt="">
+                <img src="/icons/white-bishop.png" >
             </div>
             <div class="box g1" data-box="g1">
-                <img src="/icons/white-knight.png" alt="">
+                <img src="/icons/white-knight.png" >
             </div>
             <div class="box h1" data-box="h1">
-                <img src="/icons/white-rook.png" alt="">
+                <img src="/icons/white-rook.png" >
             </div>
         </div>
     </div>
